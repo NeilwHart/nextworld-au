@@ -6,7 +6,7 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-  background-image: url(/images/book-1421097_1280.jpg);
+  background-image: url(images/book-1421097_1280.jpg);
   background-attachment: fixed;
   background-color: rgba(0, 0, 0, 0.5);
   background-blend-mode: darken;
@@ -136,3 +136,4 @@
     margin-top: -5px;
   }
 }
+
