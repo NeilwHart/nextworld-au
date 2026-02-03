@@ -4,7 +4,7 @@
     overflow: hidden;
     position: relative;
     width: 100%;
-    background-image: url(/images/wikiimages-earth-11048_1280.jpg);
+    background-image: url(images/wikiimages-earth-11048_1280.jpg);
     background-attachment: fixed;
     background-size: cover;
     -moz-background-size: cover;
@@ -161,4 +161,5 @@
 .background-3 p {
     position: relative;
     z-index: 1; /* Brings the text forward */
+
 }
