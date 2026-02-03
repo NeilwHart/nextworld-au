@@ -4,7 +4,7 @@
     overflow: hidden;
     position: relative;
     width: 100%;
-    background-image: url(images/wikiimages-earth-11048_1280.jpg);
+    background-image: url(../images/wikiimages-earth-11048_1280.jpg);
     background-attachment: fixed;
     background-size: cover;
     -moz-background-size: cover;
@@ -19,7 +19,7 @@
     overflow: hidden;
     position: relative;
     width: 100%;
-    background-image: url(images/mount-fuji-2297961_1280.jpg);
+    background-image: url(../images/mount-fuji-2297961_1280.jpg);
     background-attachment: fixed;
     background-size: cover;
     -moz-background-size: cover;
@@ -34,7 +34,7 @@
     overflow: hidden;
     position: relative;
     width: 100%;
-    background-image: url(images/arduinna-fall-8192375_1280.png);
+    background-image: url(../images/arduinna-fall-8192375_1280.png);
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
     background-attachment: fixed;
@@ -51,7 +51,7 @@
     overflow: hidden;
     position: relative;
     width: 100%;
-    background-image: url(images/ai-generated-8807081_1280.jpg);
+    background-image: url(../images/ai-generated-8807081_1280.jpg);
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
     background-attachment: fixed;
@@ -68,7 +68,7 @@
     overflow: hidden;
     position: relative;
     width: 100%;
-    background-image: url(images/man-2915187_1280.jpg);
+    background-image: url(../images/man-2915187_1280.jpg);
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: darken;
     background-attachment: fixed;
@@ -163,4 +163,5 @@
     z-index: 1; /* Brings the text forward */
 
 }
+
 
