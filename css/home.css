@@ -1,0 +1,164 @@
+.parallax1 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(/images/wikiimages-earth-11048_1280.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.parallax2{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(/images/mount-fuji-2297961_1280.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.parallax3 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(/images/arduinna-fall-8192375_1280.png);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.parallax4 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(/images/ai-generated-8807081_1280.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.parallax5 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-image: url(/images/man-2915187_1280.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.background-1 {
+    position: relative; /* Required for absolute positioning of the number */
+    padding: 2rem;     /* Add padding so the text doesn't overlap the number too much */
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    overflow: hidden;  /* Optional: keeps the pseudo-element within bounds */
+}
+
+.background-1::before {
+    content: "1"; /* The number you want to display */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the number perfectly */
+    font-size: 15rem; /* Make the number large */
+    font-weight: bold;
+    color: rgba(7, 169, 239, 0.3); /* Make the number transparent/faded */
+    pointer-events: none; /* Allows text selection/clicks through the number */
+    z-index: 0; /* Ensures the number is in the background */
+    line-height: 1; /* Prevents extra space around the number */
+}
+
+/* Optional: Use a Bootstrap utility to make the text appear above the number */
+.background-1 p {
+    position: relative;
+    z-index: 1; /* Brings the text forward */
+}
+
+.background-2 {
+    position: relative; /* Required for absolute positioning of the number */
+    padding: 2rem;     /* Add padding so the text doesn't overlap the number too much */
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    overflow: hidden;  /* Optional: keeps the pseudo-element within bounds */
+}
+
+.background-2::before {
+    content: "2"; /* The number you want to display */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the number perfectly */
+    font-size: 15rem; /* Make the number large */
+    font-weight: bold;
+    color: rgba(7, 239, 49, 0.3); /* Make the number transparent/faded */
+    pointer-events: none; /* Allows text selection/clicks through the number */
+    z-index: 0; /* Ensures the number is in the background */
+    line-height: 1; /* Prevents extra space around the number */
+}
+
+/* Optional: Use a Bootstrap utility to make the text appear above the number */
+.background-2 p {
+    position: relative;
+    z-index: 1; /* Brings the text forward */
+}
+
+.background-3 {
+    position: relative; /* Required for absolute positioning of the number */
+    padding: 2rem;     /* Add padding so the text doesn't overlap the number too much */
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    overflow: hidden;  /* Optional: keeps the pseudo-element within bounds */
+}
+
+.background-3::before {
+    content: "3"; /* The number you want to display */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the number perfectly */
+    font-size: 15rem; /* Make the number large */
+    font-weight: bold;
+    color: rgba(239, 111, 7, 0.3); /* Make the number transparent/faded */
+    pointer-events: none; /* Allows text selection/clicks through the number */
+    z-index: 0; /* Ensures the number is in the background */
+    line-height: 1; /* Prevents extra space around the number */
+}
+
+/* Optional: Use a Bootstrap utility to make the text appear above the number */
+.background-3 p {
+    position: relative;
+    z-index: 1; /* Brings the text forward */
+}
